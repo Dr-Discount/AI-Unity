@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|c:\\users\\kcradic\\desktop\\gat420\\unity_ai\\assets\\agent\\scripts\\ai_agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|solutionrelative:assets\\agent\\scripts\\ai_agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|c:\\users\\kcradic\\desktop\\gat420\\unity_ai\\assets\\autonomousagent\\scripts\\autonomous_agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|solutionrelative:assets\\autonomousagent\\scripts\\autonomous_agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|c:\\users\\kcradic\\desktop\\gat420\\unity_ai\\assets\\agent\\scripts\\autonomous_agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|solutionrelative:assets\\agent\\scripts\\autonomous_agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\assets\\agent\\scripts\\agentspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|solutionrelative:assets\\agent\\scripts\\agentspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|c:\\users\\kcradic\\desktop\\gat420\\unity_ai\\assets\\agent\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|solutionrelative:assets\\agent\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\assets\\common\\scripts\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|solutionrelative:assets\\common\\scripts\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|c:\\users\\kcradic\\desktop\\gat420\\unity_ai\\assets\\agent\\scripts\\perception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|solutionrelative:assets\\agent\\scripts\\perception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\assets\\agent\\scripts\\kinematicmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B43C653F-AC11-D046-0D7E-A7F511BACC24}|Assembly-CSharp.csproj|solutionrelative:assets\\agent\\scripts\\kinematicmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,55 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AI_Agent.cs",
-              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Agent\\Scripts\\AI_Agent.cs",
-              "RelativeDocumentMoniker": "Assets\\Agent\\Scripts\\AI_Agent.cs",
-              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Agent\\Scripts\\AI_Agent.cs",
-              "RelativeToolTip": "Assets\\Agent\\Scripts\\AI_Agent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AgentSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Agent\\Scripts\\AgentSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Agent\\Scripts\\AgentSpawner.cs",
+              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Agent\\Scripts\\AgentSpawner.cs",
+              "RelativeToolTip": "Assets\\Agent\\Scripts\\AgentSpawner.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBwAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:13:04.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T17:06:26.559Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Autonomous_Agent.cs",
-              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Agent\\Scripts\\Autonomous_Agent.cs",
-              "RelativeDocumentMoniker": "Assets\\Agent\\Scripts\\Autonomous_Agent.cs",
-              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Agent\\Scripts\\Autonomous_Agent.cs",
-              "RelativeToolTip": "Assets\\Agent\\Scripts\\Autonomous_Agent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\AutonomousAgent\\Scripts\\Autonomous_Agent.cs",
+              "RelativeDocumentMoniker": "Assets\\AutonomousAgent\\Scripts\\Autonomous_Agent.cs",
+              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\AutonomousAgent\\Scripts\\Autonomous_Agent.cs",
+              "RelativeToolTip": "Assets\\AutonomousAgent\\Scripts\\Autonomous_Agent.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAMwFwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:13:01.53Z",
+              "WhenOpened": "2026-01-14T17:45:16.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Agent\\Scripts\\Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\Agent\\Scripts\\Movement.cs",
-              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Agent\\Scripts\\Movement.cs",
-              "RelativeToolTip": "Assets\\Agent\\Scripts\\Movement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Common\\Scripts\\Utilities.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\Utilities.cs",
+              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Common\\Scripts\\Utilities.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\Utilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:12:58.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T17:44:40.765Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Perception.cs",
-              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Agent\\Scripts\\Perception.cs",
-              "RelativeDocumentMoniker": "Assets\\Agent\\Scripts\\Perception.cs",
-              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Agent\\Scripts\\Perception.cs",
-              "RelativeToolTip": "Assets\\Agent\\Scripts\\Perception.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "KinematicMovement.cs",
+              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Agent\\Scripts\\KinematicMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Agent\\Scripts\\KinematicMovement.cs",
+              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\Unity_AI\\Assets\\Agent\\Scripts\\KinematicMovement.cs",
+              "RelativeToolTip": "Assets\\Agent\\Scripts\\KinematicMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:12:48.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T05:18:21.093Z"
             }
           ]
         }
