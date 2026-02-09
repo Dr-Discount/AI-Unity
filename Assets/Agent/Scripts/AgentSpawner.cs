@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class AgentSpawner : MonoBehaviour
 {
     [SerializeField] AI_Agent[] agents;
-    [SerializeField] LayerMask layerMask = Physics.AllLayers;
+    [SerializeField] LayerMask layerMask;
 
     Camera activeCamera;
     int agentIndex = 0;

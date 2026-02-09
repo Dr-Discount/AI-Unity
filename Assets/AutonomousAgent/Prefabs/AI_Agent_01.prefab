@@ -13,11 +13,12 @@ GameObject:
   - component: {fileID: 5973616184333734988}
   - component: {fileID: 2545239275888667019}
   - component: {fileID: 4419528891602611982}
-  - component: {fileID: 5612732446509346154}
+  - component: {fileID: 8583807999780966943}
   - component: {fileID: 4228281276450665455}
   - component: {fileID: 5458202381197741765}
-  - component: {fileID: -98033769632097162}
-  m_Layer: 0
+  - component: {fileID: 1268451926078524842}
+  - component: {fileID: 4698160892227038054}
+  m_Layer: 8
   m_Name: AI_Agent_01
   m_TagString: Agent01
   m_Icon: {fileID: 0}
@@ -131,17 +132,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 4228281276450665455}
-  seekPerception: {fileID: 5612732446509346154}
+  seekPerception: {fileID: 4698160892227038054}
   fleePerception: {fileID: 0}
-  flockPerception: {fileID: -98033769632097162}
   wanderRadius: 4
   wanderDistance: 1
   wanderDisplacement: 1
+  flockPerception: {fileID: 1268451926078524842}
   cohesionWeight: 1
   separationWeight: 2
-  alignmentWeight: 2
+  alignmentWeight: 1
   separationRadius: 2
---- !u!114 &5612732446509346154
+  obstaclePerception: {fileID: 8583807999780966943}
+  obstacleWeight: 2
+--- !u!114 &8583807999780966943
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -150,13 +153,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 2633374769991353197}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 098db1f1c20b6994ab86b208be19b80a, type: 3}
+  m_Script: {fileID: 11500000, guid: 07daf24dcaa404946b657d7b27459197, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  info: Seek
-  tagName: Agent02
-  maxDistance: 5
-  maxAngle: 180
+  m_EditorClassIdentifier: Assembly-CSharp::SphereCastPerception
+  info: Obstacle
+  tagName: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  maxDistance: 3
+  maxHalfAngle: 120
+  debug: 0
+  debugColor: {r: 1, g: 1, b: 0, a: 1}
+  numRays: 9
+  sphereRadius: 0.75
 --- !u!114 &4228281276450665455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,7 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 5
-  maxForce: 5
+  maxForce: 3
 --- !u!54 &5458202381197741765
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -198,7 +208,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-98033769632097162
+--- !u!114 &1268451926078524842
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -207,13 +217,43 @@ MonoBehaviour:
   m_GameObject: {fileID: 2633374769991353197}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 098db1f1c20b6994ab86b208be19b80a, type: 3}
+  m_Script: {fileID: 11500000, guid: 07daf24dcaa404946b657d7b27459197, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DistancePerception
+  m_EditorClassIdentifier: Assembly-CSharp::SphereCastPerception
   info: Flock
   tagName: Agent01
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 384
   maxDistance: 5
-  maxAngle: 180
+  maxHalfAngle: 80
+  debug: 0
+  debugColor: {r: 1, g: 0.21366894, b: 0, a: 1}
+  numRays: 13
+  sphereRadius: 0.5
+--- !u!114 &4698160892227038054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633374769991353197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07daf24dcaa404946b657d7b27459197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SphereCastPerception
+  info: Seek
+  tagName: Agent02
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 384
+  maxDistance: 7
+  maxHalfAngle: 25
+  debug: 0
+  debugColor: {r: 0.0464921, g: 0, b: 1, a: 1}
+  numRays: 7
+  sphereRadius: 0.5
 --- !u!1001 &129795948755780240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -222,10 +262,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3717542926778128748}
     m_Modifications:
+    - target: {fileID: 646311483335002611, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 713487961007682089, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540764272955530729, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1675064253458161135, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2120652480286563868, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2311683543228773735, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7831183c7488c0c4caa5f40e5f029f59, type: 2}
+    - target: {fileID: 3180078406226379126, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874001824228926733, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4526051182192201800, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -234,14 +302,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Taipan
       objectReference: {fileID: 0}
+    - target: {fileID: 4807929556901506227, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5062559287153234616, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186593717914452053, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5442504493887559991, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7831183c7488c0c4caa5f40e5f029f59, type: 2}
+    - target: {fileID: 7200267351907499837, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7350491214208503536, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7950655511589643476, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8319246735976726104, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 7831183c7488c0c4caa5f40e5f029f59, type: 2}
+    - target: {fileID: 8419645418327121946, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8999338503545881367, guid: 5b5c678f31981e34f9122b87217da1ac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

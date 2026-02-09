@@ -12,6 +12,7 @@ public abstract class Movement : MonoBehaviour
         get { return Velocity.normalized; }
         set { }
     }
+    public virtual Vector3 Destination { get; set; }
 
-    public abstract void ApplyForce(Vector3 force);
+    public virtual void ApplyForce(Vector3 force) { }
 }

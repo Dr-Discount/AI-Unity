@@ -136,8 +136,10 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_FONT_ENGINE_1_6_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Priority Queue.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.AssetComplianceModule.dll"
@@ -419,6 +421,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Common.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Multiplayer.Center.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Postprocessing.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rendering.LightTransport.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.RenderPipelines.Core.Editor.ref.dll"
@@ -462,9 +466,24 @@
 "Assets/Agent/Scripts/DistancePerseption.cs"
 "Assets/Agent/Scripts/KinematicMovement.cs"
 "Assets/Agent/Scripts/Movement.cs"
+"Assets/Agent/Scripts/NavMeshMovement.cs"
+"Assets/Agent/Scripts/NavPathMovement.cs"
 "Assets/Agent/Scripts/Perception.cs"
+"Assets/Agent/Scripts/RaycastPerception.cs"
+"Assets/Agent/Scripts/ShpereCastPerception.cs"
 "Assets/AutonomousAgent/Scripts/Autonomous_Agent.cs"
 "Assets/Common/Scripts/Utilities.cs"
+"Assets/ithappy/Animals_FREE/Scripts/CreatureMover.cs"
+"Assets/ithappy/Animals_FREE/Scripts/MovePlayerInput.cs"
+"Assets/ithappy/Animals_FREE/Scripts/PlayerCamera.cs"
+"Assets/ithappy/Animals_FREE/Scripts/ThirdPersonCamera.cs"
+"Assets/NavAgent/Scripts/NavAgent.cs"
+"Assets/NavAgent/Scripts/NavAStar.cs"
+"Assets/NavAgent/Scripts/NavDijkstra.cs"
+"Assets/NavAgent/Scripts/Navigator.cs"
+"Assets/NavAgent/Scripts/NavNode.cs"
+"Assets/NavAgent/Scripts/NavNodeEditor.cs"
+"Assets/NavAgent/Scripts/NavPath.cs"
 "Assets/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs"
 "Assets/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs"
 -langversion:9.0

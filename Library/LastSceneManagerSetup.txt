@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/AutonomousAgent/Scenes/AutonomousAgent.unity
+- path: Assets/NavAgent/Scenes/NavScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
