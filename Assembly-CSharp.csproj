@@ -61,6 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.5f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FSM\Scripts\AIState.cs" />
     <Compile Include="Assets\ithappy\Animals_FREE\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\NavAgent\Scripts\NavPath.cs" />
     <Compile Include="Assets\NavAgent\Scripts\Navigator.cs" />
@@ -69,15 +70,23 @@
     <Compile Include="Assets\Agent\Scripts\Perception.cs" />
     <Compile Include="Assets\Quirky Series Ultimate\_Scripts\RotateOnScroll.cs" />
     <Compile Include="Assets\NavAgent\Scripts\NavNode.cs" />
+    <Compile Include="Assets\FSM\Scripts\AIIdleState.cs" />
     <Compile Include="Assets\Agent\Scripts\NavMeshMovement.cs" />
     <Compile Include="Assets\NavAgent\Scripts\NavDijkstra.cs" />
     <Compile Include="Assets\Agent\Scripts\AgentSpawner.cs" />
     <Compile Include="Assets\Quirky Series Ultimate\_Scripts\QuirkySeriesDemo.cs" />
+    <Compile Include="Assets\FSM\Scripts\AIChaseState.cs" />
     <Compile Include="Assets\NavAgent\Scripts\NavAgent.cs" />
     <Compile Include="Assets\Common\Scripts\Utilities.cs" />
+    <Compile Include="Assets\FSM\Scripts\AIDeadState.cs" />
     <Compile Include="Assets\NavAgent\Scripts\NavNodeEditor.cs" />
+    <Compile Include="Assets\FSM\Scripts\AIAttackState.cs" />
     <Compile Include="Assets\Agent\Scripts\AI_Agent.cs" />
+    <Compile Include="Assets\FSM\Scripts\AIPatrolState.cs" />
     <Compile Include="Assets\Agent\Scripts\KinematicMovement.cs" />
+    <Compile Include="Assets\FSM\Scripts\StateAgent.cs" />
+    <Compile Include="Assets\FSM\Scripts\AIStateMachine.cs" />
+    <Compile Include="Assets\FSM\Scripts\AIDamageState.cs" />
     <Compile Include="Assets\Agent\Scripts\DistancePerseption.cs" />
     <Compile Include="Assets\Agent\Scripts\Movement.cs" />
     <Compile Include="Assets\NavAgent\Scripts\NavAStar.cs" />
@@ -630,6 +639,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Priority Queue">
+      <HintPath>Assets\Priority Queue.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -652,10 +665,6 @@
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Priority Queue">
-      <HintPath>Assets\Priority Queue.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

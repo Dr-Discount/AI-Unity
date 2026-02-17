@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|c:\\users\\kcradic\\desktop\\gat420\\ai-unity\\assets\\navagent\\scripts\\navigator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\navagent\\scripts\\navigator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\assets\\fsm\\scripts\\aipatrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\fsm\\scripts\\aipatrolstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\assets\\agent\\scripts\\navpathmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\agent\\scripts\\navpathmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|c:\\users\\kcradic\\desktop\\gat420\\ai-unity\\assets\\fsm\\scripts\\stateagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\fsm\\scripts\\stateagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|c:\\users\\kcradic\\desktop\\gat420\\ai-unity\\assets\\navagent\\scripts\\navnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\navagent\\scripts\\navnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\assets\\fsm\\scripts\\aistatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\fsm\\scripts\\aistatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\assets\\navagent\\scripts\\navagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\navagent\\scripts\\navagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\assets\\fsm\\scripts\\aistate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\fsm\\scripts\\aistate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\assets\\agent\\scripts\\navmeshmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\agent\\scripts\\navmeshmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\assets\\agent\\scripts\\kinematicmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\agent\\scripts\\kinematicmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\assets\\agent\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\agent\\scripts\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\assets\\navagent\\scripts\\navpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\navagent\\scripts\\navpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\assets\\navagent\\scripts\\navdijkstra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\navagent\\scripts\\navdijkstra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\assets\\fsm\\scripts\\aiidlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B83B92A1-D668-5E70-860E-BDB26F7CD0D1}|Assembly-CSharp.csproj|solutionrelative:assets\\fsm\\scripts\\aiidlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,114 +38,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Navigator.cs",
-              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\NavAgent\\Scripts\\Navigator.cs",
-              "RelativeDocumentMoniker": "Assets\\NavAgent\\Scripts\\Navigator.cs",
-              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\NavAgent\\Scripts\\Navigator.cs",
-              "RelativeToolTip": "Assets\\NavAgent\\Scripts\\Navigator.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAEwCEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T07:48:59.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "NavNode.cs",
-              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\NavAgent\\Scripts\\NavNode.cs",
-              "RelativeDocumentMoniker": "Assets\\NavAgent\\Scripts\\NavNode.cs",
-              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\NavAgent\\Scripts\\NavNode.cs",
-              "RelativeToolTip": "Assets\\NavAgent\\Scripts\\NavNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Title": "AIStateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\FSM\\Scripts\\AIStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\FSM\\Scripts\\AIStateMachine.cs",
+              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\FSM\\Scripts\\AIStateMachine.cs",
+              "RelativeToolTip": "Assets\\FSM\\Scripts\\AIStateMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T07:44:53.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T17:24:49.376Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NavPathMovement.cs",
-              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\Agent\\Scripts\\NavPathMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Agent\\Scripts\\NavPathMovement.cs",
-              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\Agent\\Scripts\\NavPathMovement.cs",
-              "RelativeToolTip": "Assets\\Agent\\Scripts\\NavPathMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AIPatrolState.cs",
+              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\FSM\\Scripts\\AIPatrolState.cs",
+              "RelativeDocumentMoniker": "Assets\\FSM\\Scripts\\AIPatrolState.cs",
+              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\FSM\\Scripts\\AIPatrolState.cs",
+              "RelativeToolTip": "Assets\\FSM\\Scripts\\AIPatrolState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T07:30:33.083Z",
+              "WhenOpened": "2026-02-11T17:18:20.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "NavMeshMovement.cs",
-              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\Agent\\Scripts\\NavMeshMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Agent\\Scripts\\NavMeshMovement.cs",
-              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\Agent\\Scripts\\NavMeshMovement.cs",
-              "RelativeToolTip": "Assets\\Agent\\Scripts\\NavMeshMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
+              "Title": "AIIdleState.cs",
+              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\FSM\\Scripts\\AIIdleState.cs",
+              "RelativeDocumentMoniker": "Assets\\FSM\\Scripts\\AIIdleState.cs",
+              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\FSM\\Scripts\\AIIdleState.cs",
+              "RelativeToolTip": "Assets\\FSM\\Scripts\\AIIdleState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T07:21:06.246Z"
+              "WhenOpened": "2026-02-11T17:09:19.936Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "NavAgent.cs",
-              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\NavAgent\\Scripts\\NavAgent.cs",
-              "RelativeDocumentMoniker": "Assets\\NavAgent\\Scripts\\NavAgent.cs",
-              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\NavAgent\\Scripts\\NavAgent.cs",
-              "RelativeToolTip": "Assets\\NavAgent\\Scripts\\NavAgent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Title": "AIState.cs",
+              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\FSM\\Scripts\\AIState.cs",
+              "RelativeDocumentMoniker": "Assets\\FSM\\Scripts\\AIState.cs",
+              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\FSM\\Scripts\\AIState.cs",
+              "RelativeToolTip": "Assets\\FSM\\Scripts\\AIState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-04T20:27:09.962Z"
+              "WhenOpened": "2026-02-11T17:06:05.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "KinematicMovement.cs",
-              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\Agent\\Scripts\\KinematicMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Agent\\Scripts\\KinematicMovement.cs",
-              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\Agent\\Scripts\\KinematicMovement.cs",
-              "RelativeToolTip": "Assets\\Agent\\Scripts\\KinematicMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StateAgent.cs",
+              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\FSM\\Scripts\\StateAgent.cs",
+              "RelativeDocumentMoniker": "Assets\\FSM\\Scripts\\StateAgent.cs",
+              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\FSM\\Scripts\\StateAgent.cs",
+              "RelativeToolTip": "Assets\\FSM\\Scripts\\StateAgent.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwEAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T07:32:32.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\Agent\\Scripts\\Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\Agent\\Scripts\\Movement.cs",
-              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\Agent\\Scripts\\Movement.cs",
-              "RelativeToolTip": "Assets\\Agent\\Scripts\\Movement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T07:29:09.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NavDijkstra.cs",
-              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\NavAgent\\Scripts\\NavDijkstra.cs",
-              "RelativeDocumentMoniker": "Assets\\NavAgent\\Scripts\\NavDijkstra.cs",
-              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\NavAgent\\Scripts\\NavDijkstra.cs",
-              "RelativeToolTip": "Assets\\NavAgent\\Scripts\\NavDijkstra.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T06:29:14.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NavPath.cs",
-              "DocumentMoniker": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\NavAgent\\Scripts\\NavPath.cs",
-              "RelativeDocumentMoniker": "Assets\\NavAgent\\Scripts\\NavPath.cs",
-              "ToolTip": "C:\\Users\\kcradic\\Desktop\\GAT420\\AI-Unity\\Assets\\NavAgent\\Scripts\\NavPath.cs",
-              "RelativeToolTip": "Assets\\NavAgent\\Scripts\\NavPath.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-09T05:19:25.911Z"
+              "WhenOpened": "2026-02-09T17:11:11.82Z",
+              "EditorCaption": ""
             }
           ]
         }
